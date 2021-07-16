@@ -49,3 +49,37 @@
     color: black;
     transition: 0.3s;
 }
+
+.about{
+    background: black;
+}
+
+.about img{
+    min-width: 90%;
+    max-height: 30rem;
+    box-shadow: 8px 8px 41px -24px rgba(255, 255, 255, 0.75);
+}
+
+.about .about-container{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+.about-container h1{
+    color: aqua;
+}
+
+.about-container p{
+    color: white;
+}
+.about-container .read-btn{
+    background-color: transparent;
+    color: aqua;
+    outline: none;
+    font-weight: bold;
+    border: 0;
+}
