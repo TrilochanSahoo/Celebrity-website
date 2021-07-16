@@ -21,10 +21,10 @@
                 <a class="nav-link active px-lg-4" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link px-lg-4" href="#">About</a>
+                <a class="nav-link px-lg-4" href="#">Bio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link px-lg-4" href="#">Achievement</a>
+                <a class="nav-link px-lg-4" href="#">Legacy</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link px-lg-4" href="#">Award</a>
@@ -61,34 +61,73 @@
           </div>
       </section>
 
-      <section class="achievement py-5">
+      <section class="legacy py-5">
           <div class="container text-center py-5">
-              <h1 class="text-center">Achievements...</h1>
+              <h1 class="text-center">Legacy...</h1>
               <hr class="w-25 mx-auto">
-              <div class="row">
-                  <div class="col-lg-4 ps-5 pt-5">
-                      <div class="item">
-                          <img src="https://english.mathrubhumi.com/polopoly_fs/1.4980259.1597562064!/image/image.jpg_gen/derivatives/landscape_894_577/image.jpg" class="img-fluid" alt="https://english.mathrubhumi.com/polopoly_fs/1.4980259.1597562064!/image/image.jpg_gen/derivatives/landscape_894_577/image.jpg">
-                          <span>this is video</span>
-                      </div>
+              <div class="row pt-3 ps-5">
+                  <div class="card item col-lg-4 pt-3">
+                    <img src="https://english.mathrubhumi.com/polopoly_fs/1.4980259.1597562064!/image/image.jpg_gen/derivatives/landscape_894_577/image.jpg" alt="https://english.mathrubhumi.com/polopoly_fs/1.4980259.1597562064!/image/image.jpg_gen/derivatives/landscape_894_577/image.jpg" class="card-img-top">
+                    <div class="card-body">
+                      <h4 class="card-text">ICC WORLD CUP, 2011</h4>
+                    </div>
+                    <span><i data-bs-toggle="modal" data-bs-target="#video-1">this</i></span>
                   </div>
-                  <div class="col-lg-4 ps-5 pt-5">
-                    <div class="item">
-                        <img src="http://www.cricketdawn.com/wp-content/uploads/2011/12/MS-Dhoni-Twenty20-World-Cup.jpg" class="img-fluid" alt="http://www.cricketdawn.com/wp-content/uploads/2011/12/MS-Dhoni-Twenty20-World-Cup.jpg">
-                        <span>this is video</span>
+                  
+                  <div class="card item col-lg-4 pt-3">
+                    <img src="http://www.cricketdawn.com/wp-content/uploads/2011/12/MS-Dhoni-Twenty20-World-Cup.jpg" class="card-img-top" alt="http://www.cricketdawn.com/wp-content/uploads/2011/12/MS-Dhoni-Twenty20-World-Cup.jpg">
+                    <div class="card-body">
+                        <h4 class="card-text">ICC T-20 WORLD CUP, 2007</h4>
                     </div>
-                </div>
-                <div class="col-lg-4 ps-5 pt-5">
-                    <div class="item">
-                        <img src="https://p.imgci.com/db/PICTURES/CMS/160300/160385.jpg" class="img-fluid" alt="https://p.imgci.com/db/PICTURES/CMS/160300/160385.jpg">
-                        <span><i data-toggle="model" data-target="#achievementModel">this</i></span>
+                    <span><i data-bs-toggle="modal" data-bs-target="#video-2">this</i></span>
+                  </div>
+
+                  <div class="card item col-lg-4 pt-3">
+                    <img src="https://p.imgci.com/db/PICTURES/CMS/160300/160385.jpg" class="card-img-top" alt="https://p.imgci.com/db/PICTURES/CMS/160300/160385.jpg">
+                    <div class="card-body">
+                        <h4 class="card-text">ICC Champions Trophy, 2013 </h4>
                     </div>
-                </div>
+                    <span><i data-bs-toggle="modal" data-bs-target="#video-3">this</i></span>
+                  </div>
+                
               </div>
           </div>
       </section>
 
-      <div class="achievement-model model fade mt-5" id="achievementModel" aria-hidden="true" role="dialog">
+      <div class="modal fade" id="video-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <video width="100%" controls autoplay loop>
+                  <source src="" type="">
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="video-2" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <video width="100%" controls autoplay loop>
+                  <source src="" type="">
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="video-3" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <video width="100%" controls autoplay loop>
+                  <source src="" type="">
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="achievement-model model fade mt-5" id="achievementModel" aria-hidden="true" role="dialog">
           <div class="model-dialog model-md" role="document">
               <div class="model-content text-center">
                   <div class="model-body text-center">
@@ -102,7 +141,7 @@
                   </div>
               </div>
           </div>
-      </div>
+      </div> -->
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

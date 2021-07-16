@@ -84,6 +84,13 @@
     border: 0;
 }
 
+.legacy h1{
+    color: aqua;
+}
+
+.legacy .card{
+    border: 0;
+}
 .item{
     position: relative;
     /* max-height: 10rem; */
@@ -132,4 +139,14 @@
 .item:hover:before{
     opacity: 1;
     transition: 0.5s;
+}
+
+.modal .modal-body{
+    /* background: transparent; */
+    padding: 0;
+}
+
+.modal .modal-content{
+    background: transparent;
+    border: 0;
 }
