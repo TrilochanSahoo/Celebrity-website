@@ -95,12 +95,23 @@
     border: 0;
 }
 
+.legacy .legacy-box{
+    padding-left: 2rem;
+}
+
 .legacy h1{
     color: aqua;
 }
 
 .legacy .card{
     border: 0;
+}
+
+.legacy span{
+    color: black;
+    top: 40%;
+    left: 45%;
+    font-size: 40px;
 }
 .item{
     position: relative;
@@ -233,4 +244,7 @@
         background: black url("https://pbs.twimg.com/media/EvoxNsfVcAAHV6O.jpg") top no-repeat;
     }
     
+    .legacy .legacy-box{
+        padding-left: 0;
+    }
 }
