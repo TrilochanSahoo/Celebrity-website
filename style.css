@@ -8,6 +8,9 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+.navbar span{
+    color: aqua;
+}
 .navbar-collapse .nav-link{
     color: white;
     font-size: 1rem;
@@ -30,8 +33,11 @@
     height: 100vh;
 }
 .main h3{
-    font-size: 4.4rem;
+    font-size: 2.5rem;
     font-weight: 700;
+}
+.main h2{
+    font-size: 4rem;
 }
 
 .main .btn{
@@ -58,6 +64,11 @@
     min-width: 90%;
     max-height: 30rem;
     box-shadow: 8px 8px 41px -24px rgba(255, 255, 255, 0.75);
+}
+
+.about span{
+    font-size: larger;
+    font-weight: 700;
 }
 
 .about .about-container{
@@ -215,4 +226,11 @@
 
 .quote .carousel-caption{
     bottom: 6.25rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .main{
+        background: black url("https://pbs.twimg.com/media/EvoxNsfVcAAHV6O.jpg") top no-repeat;
+    }
+    
 }
