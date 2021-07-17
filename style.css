@@ -192,16 +192,27 @@
     animation-delay: 2s;
 }
 
+.quote{
+    padding: 5rem 0;
+}
+
 .carousel-item{
-    height: 32rem;
-    background-color: gray;
+    height: 20rem;
+    background-color: rgb(218, 218, 218);
     color: white;
     position: relative;
 
 }
 
-.carousel .container{
-    position: absolute;
-    left: 20%;
-    top: 40%;
+.quote p{
+    font-size: large;
+}
+
+.quote h5{
+    font-size: large;
+    font-weight: 700;
+}
+
+.quote .carousel-caption{
+    bottom: 6.25rem;
 }
